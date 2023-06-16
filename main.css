@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    width: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.header {
+    position: relative;
+    width: 200vh;
+    height: 100vh;
+    background: url(./img/934aa2_e9bef7ae33874841b2968e97b93a09a8~mv2.webp) no-repeat center center/ cover; 
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.header__cards {
+    position: absolute;
+    width: 1300px;
+    height: 650px;
+    background: #fff;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+img {
+    padding-bottom: 60px;
+    width: 600px;
+    height: 290px;
+    background: #F6F6F6;
+}
+
+.text {
+    padding-right: 300px;
+    width: 250px;
+    color: #1345F9;
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.son {
+    color: #1345F9;
+    font-size: 40px;
+
+}
+
+.ul {
+    padding-right: 130px;
+    width: 550px;
+    height: 58px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__container__card1 {
+    padding-left:40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+    justify-content: center;
+}
+
+.header__container__card2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    justify-content: center;
+}
+
+.text_2 {
+    padding-right: 42px;
+    width: 340px;
+    color: #1345F9;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.text_3 {
+    padding-right: 10px;
+    width: 380px;
+    color: #000;
+    font-size: 43px;
+    font-weight: 300;
+}
+
+.text_4 {
+    padding-right: 288px;
+    width: 100px;
+    color: #1345F9;
+    font-size: 43px;
+    font-weight: 300;
+}
+
+.text5 {
+    width: 380px;
+    height: 189px;
+    font-size: 26px;
+    font-weight: 300;
+    padding-bottom: 60px;
+}
+
+.button {
+    width: 380px;
+    height: 80px;
+    border: 3px solid #1345F9;
+    border-radius: 40px;
+    background: #1345F9;
+    color: #fff;
+    font-size: 35px;
+    transition: .5s;
+}
+.button:hover{
+    background: #fff;
+    color: #1345F9;
+    border: 3px solid #1345F9;
+}
